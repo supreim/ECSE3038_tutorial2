@@ -74,8 +74,8 @@ async def name():
 
 @app.get("/address")
 async def address():
-    return {"message": addresses}
+    return {"addresses": addresses}
 
 @app.get("/occupation")
 async def occupation():
-    return {"message": occupations}
+    return {"occupations": occupations}
